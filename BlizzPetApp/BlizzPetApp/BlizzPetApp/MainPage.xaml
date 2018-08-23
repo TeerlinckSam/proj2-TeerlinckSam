@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:BlizzPetApp"
+             x:Class="BlizzPetApp.MainPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+
+        </Grid.RowDefinitions>
+
+        <Image Grid.RowSpan="3" Source="https://img1.etsystatic.com/219/0/15229090/il_fullxfull.1262916877_9x01.jpg"></Image>
+
+        <Label Text="Welcome to BlizzPet!" FontSize="Large" TextColor="Black" Grid.Row="1" HorizontalTextAlignment="Center" Margin="0,12"/>
+
+        <Label Text="A comprehensive list of pets in World of Warcraft." FontSize="Medium" TextColor="Black" Grid.Row="2" HorizontalTextAlignment="Center" VerticalOptions="End" Margin="0,0,0,5"/>
+
+        <Picker IsVisible="True" BackgroundColor="Silver" x:Name="pickFamily" Title="Choose a pet family." TextColor="White" Grid.Row="3" SelectedIndexChanged="pickFamily_SelectedIndexChanged" VerticalOptions="Start" Margin="20,0,20,0">
+            <Picker.Items>
+                <x:String>Aquatic</x:String>
+                <x:String>Beast</x:String>
+                <x:String>Critter</x:String>
+                <x:String>Dragonkin</x:String>
+                <x:String>Elemental</x:String>
+                <x:String>Flying</x:String>
+                <x:String>Humanoid</x:String>
+                <x:String>Magic</x:String>
+                <x:String>Mechanical</x:String>
+                <x:String>Undead</x:String>
+            </Picker.Items>
+        </Picker>
+
+        <!--
+        Images Pet Families:
+            https://vignette.wikia.nocookie.net/wowwiki/images/9/97/Pet_type_aquatic.png
+            https://vignette.wikia.nocookie.net/wowwiki/images/7/73/Pet_type_beast.png
+            https://vignette.wikia.nocookie.net/wowwiki/images/a/a2/Pet_type_critter.png
+            https://vignette.wikia.nocookie.net/wowwiki/images/7/78/Pet_type_dragonkin.png
+            https://vignette.wikia.nocookie.net/wowwiki/images/8/8e/Pet_type_elemental.png
+            https://vignette.wikia.nocookie.net/wowwiki/images/2/29/Pet_type_flying.png
+            https://vignette.wikia.nocookie.net/wowwiki/images/b/bf/Pet_type_humanoid.png
+            https://vignette.wikia.nocookie.net/wowwiki/images/b/b9/Pet_type_magic.png
+            https://vignette.wikia.nocookie.net/wowwiki/images/2/2a/Pet_type_mechanical.png
+            https://vignette.wikia.nocookie.net/wowwiki/images/e/e2/Pet_type_undead.png
+        Images Pet Icons:
+            https://wow.zamimg.com/images/wow/icons/large/XXXXXXX.jpg
+            (XXXXXX = "icon" in database)
+        -->
+
+    </Grid>
+
+</ContentPage>

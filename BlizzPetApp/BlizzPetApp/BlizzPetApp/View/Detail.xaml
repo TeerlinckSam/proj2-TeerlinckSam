@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BlizzPetApp.View.Detail"
+             x:Name="DetailPage"
+             Title="Selected Pet">
+    <ContentPage.Content>
+        <Grid BackgroundColor="LightGray">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="3*" />
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="1*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <Image x:Name="imgPet" Source="https://wow.zamimg.com/images/wow/icons/large/ability_mount_whitetiger.jpg" Grid.Column="1" Grid.Row="0" VerticalOptions="Start"  HorizontalOptions="Center" HeightRequest="100" WidthRequest="100" Margin="0,25"/>
+            <Label x:Name="lblName"   VerticalOptions="End"  Text="Name" HorizontalTextAlignment="Center" TextColor="Black" Grid.Column="1" Grid.Row="0" FontSize="Large"/>
+
+            <Label x:Name="lblFamily" VerticalOptions="Center"  Text="Family" HorizontalTextAlignment="Center" TextColor="Black" Grid.Column="0" Grid.Row="1" FontSize="Medium"/>
+            <Label x:Name="lblSpeed" VerticalOptions="Center"  Text="Speed: X" HorizontalTextAlignment="Center" TextColor="Black" Grid.Column="1" Grid.Row="1" FontSize="Medium"/>
+            <Label x:Name="lblBattle" VerticalOptions="Center" Text="Can Battle?" HorizontalTextAlignment="Center" TextColor="Black" Grid.Column="2" Grid.Row="1" FontSize="Medium"/>
+
+            <Button x:Name="btnFeedback" Text="Feedback" VerticalOptions="End" HorizontalOptions="Center" Clicked="btnFeedback_Clicked" Grid.Row="2" Grid.Column="1" Margin="0,0,0,15" BackgroundColor="White"/>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
