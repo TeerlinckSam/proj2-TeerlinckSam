@@ -7311,11 +7311,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documents\\GitHub\\BlizzPet\\BlizzPetApp\\BlizzPetApp\\BlizzPetApp.UWP\\BlizzPetApp.UWP.csproj",
+      "projectUniqueName": "D:\\DP2\\project2\\proj2-TeerlinckSam\\BlizzPetApp\\BlizzPetApp\\BlizzPetApp.UWP\\BlizzPetApp.UWP.csproj",
       "projectName": "BlizzPetApp.UWP",
-      "projectPath": "D:\\Documents\\GitHub\\BlizzPet\\BlizzPetApp\\BlizzPetApp\\BlizzPetApp.UWP\\BlizzPetApp.UWP.csproj",
+      "projectPath": "D:\\DP2\\project2\\proj2-TeerlinckSam\\BlizzPetApp\\BlizzPetApp\\BlizzPetApp.UWP\\BlizzPetApp.UWP.csproj",
       "packagesPath": "C:\\Users\\samte\\.nuget\\packages\\",
-      "outputPath": "D:\\Documents\\GitHub\\BlizzPet\\BlizzPetApp\\BlizzPetApp\\BlizzPetApp.UWP\\obj\\",
+      "outputPath": "D:\\DP2\\project2\\proj2-TeerlinckSam\\BlizzPetApp\\BlizzPetApp\\BlizzPetApp.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -7335,8 +7335,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "D:\\Documents\\GitHub\\BlizzPet\\BlizzPetApp\\BlizzPetApp\\BlizzPetApp\\BlizzPetApp.csproj": {
-              "projectPath": "D:\\Documents\\GitHub\\BlizzPet\\BlizzPetApp\\BlizzPetApp\\BlizzPetApp\\BlizzPetApp.csproj"
+            "D:\\DP2\\project2\\proj2-TeerlinckSam\\BlizzPetApp\\BlizzPetApp\\BlizzPetApp\\BlizzPetApp.csproj": {
+              "projectPath": "D:\\DP2\\project2\\proj2-TeerlinckSam\\BlizzPetApp\\BlizzPetApp\\BlizzPetApp\\BlizzPetApp.csproj"
             }
           }
         }

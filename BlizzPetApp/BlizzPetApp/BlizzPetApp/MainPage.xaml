@@ -32,24 +32,6 @@
                 <x:String>Undead</x:String>
             </Picker.Items>
         </Picker>
-
-        <!--
-        Images Pet Families:
-            https://vignette.wikia.nocookie.net/wowwiki/images/9/97/Pet_type_aquatic.png
-            https://vignette.wikia.nocookie.net/wowwiki/images/7/73/Pet_type_beast.png
-            https://vignette.wikia.nocookie.net/wowwiki/images/a/a2/Pet_type_critter.png
-            https://vignette.wikia.nocookie.net/wowwiki/images/7/78/Pet_type_dragonkin.png
-            https://vignette.wikia.nocookie.net/wowwiki/images/8/8e/Pet_type_elemental.png
-            https://vignette.wikia.nocookie.net/wowwiki/images/2/29/Pet_type_flying.png
-            https://vignette.wikia.nocookie.net/wowwiki/images/b/bf/Pet_type_humanoid.png
-            https://vignette.wikia.nocookie.net/wowwiki/images/b/b9/Pet_type_magic.png
-            https://vignette.wikia.nocookie.net/wowwiki/images/2/2a/Pet_type_mechanical.png
-            https://vignette.wikia.nocookie.net/wowwiki/images/e/e2/Pet_type_undead.png
-        Images Pet Icons:
-            https://wow.zamimg.com/images/wow/icons/large/XXXXXXX.jpg
-            (XXXXXX = "icon" in database)
-        -->
-
     </Grid>
 
 </ContentPage>
